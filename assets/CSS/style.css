@@ -21,15 +21,52 @@ p1 {
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    padding: 150px;
+    width: 75%;
+    margin: 0 auto;
+    /*margin: 50px;
+    padding: 0 150px;*/
+    width: 75%;
 }
 
 
 .foto {
     /*display: block;*/
-    width: 16px;
+    width: 250px;
 }
 
 #menu {
-    display: inline;
+    display: flex;
+    /*text-decoration: none;*/
+    gap: 10px;
+    list-style: none;
 }
+
+#menu a {
+    text-decoration: none;
+    /*margin: 10px;*/
+}
+
+#menu a:hover {
+    color: gray;
+}
+
+.p-30 {
+    padding: 50px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+
+.wh {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
 /*Estilos da página index.html*/
