@@ -5,15 +5,28 @@
 
 
 p {
-    font-size: 64px;
+    font-size: 16px;
 }
 
 p1 {
-    font-size: 640px;
+    font-size: 16px;
 }
 
 .center {
     text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foto {
+    display: block;
+    width: 30%;
 }
 
 
