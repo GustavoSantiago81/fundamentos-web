@@ -25,9 +25,11 @@ p1 {
 
 
 .foto {
-    display: block;
-    width: 30%;
+    /*display: block;*/
+    width: 16px;
 }
 
-
+#menu {
+    display: inline;
+}
 /*Estilos da página index.html*/
