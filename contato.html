@@ -32,9 +32,9 @@
           <label for="assunto">Assunto:</label><br>
           <!-- <input type="text" id="assunto" /> -->
           <textarea name="assunto" id="assunto"  onkeyup="validaAssunto()" cols="30" rows="10"></textarea>
-          <div id="txtAssunto"></div>
+          <div id="txtAssunto"></div> <br>
 
-          <button>Enviar</button>
+          <button onclick="enviar()">Enviar</button>
         </form>
       </div>
 
@@ -54,6 +54,9 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          onmousemove="mapaZoom()"
+          onmouseout="mapaNormal()"
+          id="mapa"
         >
         </iframe>
       </div>
