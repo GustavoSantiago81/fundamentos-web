@@ -18,7 +18,10 @@ nome.style.width = '100%'
 email.style.width = '100%'
 
 function validaNome() {
+    let txt = document.querySelector('#txtNome')
     if(nome.value.length < 3){
-        alert('nome invalido')
+        txt.innerHTML= 'Nome Inválido'
+    } else {
+        txt.innerHTML = 'Nome Válido!'
     }
 }
