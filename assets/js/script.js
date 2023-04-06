@@ -21,7 +21,9 @@ function validaNome() {
     let txt = document.querySelector('#txtNome')
     if(nome.value.length < 3){
         txt.innerHTML= 'Nome Inválido'
+        txt.style.color = 'red'
     } else {
         txt.innerHTML = 'Nome Válido!'
+        txt.style.color = "green"
     }
 }
