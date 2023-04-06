@@ -27,3 +27,24 @@ function validaNome() {
         txt.style.color = "green"
     }
 }
+
+function validaEmail() {
+    let txtEmail = document.querySelector('#txtEmail')
+
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
+        txtEmail.innerHTML= 'E-mail inválido'
+        txtEmail.style.color = 'red'
+    } else {
+        txtEmail.innerHTML= 'E-mail válido'
+        txtEmail.style.color = 'green'
+    }
+}
+
+function validaAssunto() {
+    let txtAssunto = document.querySelector('#txtAssunto')
+
+    if (assunto.value.length >= 100) {
+        txtAssunto.innerHTML = "<h1>Digite no máximo 100 caracteres</h1>"
+        txtAssunto.style.backgroundColor = 'red'
+    }
+}
